@@ -1,4 +1,4 @@
-var checkPoint2Page = {}
+var checkPoint2 = {}
 module.exports = {
     before: browser => {
         checkPoint2 = browser.page.checkPoint2Page()
