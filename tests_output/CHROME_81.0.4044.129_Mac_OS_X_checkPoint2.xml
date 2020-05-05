@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="6">
+
+  <testsuite name="checkPoint2"
+    errors="0" failures="1" hostname="" id="" package="checkPoint2" skipped="3"
+    tests="6" time="9.552" timestamp="">
+  
+    <testcase name="Test even and odd Results" classname="checkPoint2" time="0.5790" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test filter object results" classname="checkPoint2" time="0.7860" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Filter String Results" classname="checkPoint2" time="1.709" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Palindrome Result Test" classname="checkPoint2" time="0.3850" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add Results Test" classname="checkPoint2" time="0.3020" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="decimal point even odd test" classname="checkPoint2" time="5.791" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@oddResults]&gt;[0m contains text [0;33m&#39;null&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;null&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;null&#39;&#34;[0m [0;90m(5510ms)[0m">    at Object.decimal point even odd test (/Users/gregoryomoma/Desktop/checkPoint2Project/tests/checkPoint2.js:93:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Multiple names filter object test" classname="checkPoint2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="random letters Palindrome Test" classname="checkPoint2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="sum of decimals Test {trello board(https://trello.com/b/0IZKZSyv/check-point-2-project)}" classname="checkPoint2">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
