@@ -1,22 +1,6 @@
 module.exports = {
     url: 'https://devmountain-qa.github.io/Automation-Basics/build/',
     elements: {
-        evenOddInput: 'input[name="evenOddInput"]',
-        evenOddBtn: 'button[name="evenOddButton"]',
-        oddResults: 'span[name="oddResults"]',
-        evenResults: 'span[name="evenResults"]',
-        objInput: 'input[name="objectFilterInput"]',
-        objBtn: 'button[name="objectFilterButton"]',
-        objResults: 'span[name="objectFilterResults"]',
-        stringInput: '#nameFilterInput',
-        stringBtn: '#nameFilterButton',
-        stringResults: 'span[name="nameFilterResults"]',
-        palInput: 'input[name="palindromeInput"]',
-        palBtn: 'button[name="palindromeButton"]',
-        palResults: 'span[name="palindromeResults"]',
-        sum1Input: 'input[name="sumInput1"]',
-        sum2Input:'input[name="sumInput2"]',
-        sumAdd: 'button[name="sumButton"]',
-        sumResults: 'span[name="sumResults"]',
+        
     },
 }
