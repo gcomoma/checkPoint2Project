@@ -1,12 +1,15 @@
-var checkPoint2 = {}
+var homeDepot = {}
 module.exports = {
     before: browser => {
-        checkPoint2 = browser.page.checkPoint2Page()
-        checkPoint2.navigate()
+        homeDepot = browser.page.homeDepotPage()
+        homeDepot.navigate()
         // .waitForElementPresent('body')
     },
     after: browser => {
-        checkPoint2.end()
+        homeDepot.end()
     },
-    
+    'sign up test': browser => {
+        homeDepot
+            .click
+    }
 }   
