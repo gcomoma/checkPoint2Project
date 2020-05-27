@@ -1,5 +1,5 @@
 module.exports = {
-    url: 'https://devmountain-qa.github.io/Automation-Basics/build/',
+    url: 'https://www.homedepot.com/',
     elements: {
         myAccount: 
             {selector: '(//div[text()="My Account"])[1]', locateStrategy: 'xpath'},
@@ -13,5 +13,7 @@ module.exports = {
         enterPhone: '#phone',
         skipForNow: 
             {selector: '//span[text()="Skip for now & Continue Shopping"]', locateStrategy: 'xpath'},
+        register:
+            {selector: '//span[text()="Register"]', locateStrategy: 'xpath'},
     },  
 }
