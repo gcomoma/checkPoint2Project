@@ -33,5 +33,21 @@ module.exports = {
             {selector: '//h1', locateStrategy: 'xpath'},
         home:
             {selector: '//a[text()="Home"]', locateStrategy: 'xpath'},
+        schlage:
+            {selector: '(//div[@class="certona__productdescriptionwrapper"])[1]', locateStrategy: 'xpath'},
+        cart: 
+            {selector: '//span[text()="Add to Cart"]', locateStrategy: 'xpath'},
+        checkOut:
+            {selector: '(//span[@class="bttn__content"])[1]', locateStrategy: 'xpath'},
+        firstName:
+            {selector: '(//input[@class="form-input__field form-control no-input-field-icons"])[1]', locateStrategy: 'xpath'},
+        lastName:
+            {selector: '(//input[@class="form-input__field form-control no-input-field-icons"])[2]', locateStrategy: 'xpath'},
+        phone:
+            {selector: '(//input[@class="form-input__field form-control no-input-field-icons"])[3]', locateStrategy: 'xpath'},
+        shippingAddress:
+            {selector: '(//input[@class="form-input__field form-control no-input-field-icons"])[4]', locateStrategy: 'xpath'},
+        zipCode:
+            {selector: '(//input[@class="form-input__field form-control no-input-field-icons"])[6]', locateStrategy: 'xpath'},
     },  
 }

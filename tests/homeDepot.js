@@ -40,7 +40,7 @@ module.exports = {
             }
         }
         homeDepotArray.forEach(info => {
-            homeDepotObject.process(homeDepotPage, info)
+            homeDepotObject.process(homeDepot, info)
         })
 
     },
@@ -50,12 +50,24 @@ module.exports = {
                 pageObject
                     .useXpath()
                     .click(`(//img[@class="visualNav__img"])[${piece.number}]`)
-                    .verify.containsText(piece.result)
+                    .verify.containsText('@header', piece.result)
                     .click('@home')
             }
         }
         homeDepotArray2.forEach(data => {
-            homeDepotObject2.stage(homeDepotPage, data)
+            homeDepotObject2.stage(homeDepot, data)
         })
-    }
+    },
+    // 'Transactions test': browser => {
+    //     homeDepot
+    //         .click('@schlage')
+    //         .click('@cart')
+    //         .pause(4000)
+    //         .click('@checkOut')
+    //         .setValue('@firstName', 'bob')
+    //         .setValue('@lastName', 'george')
+    //         .setValue('@phone', '8888888888')
+    //         .setValue('@shippingAddress', '123 main st New York, NY ')
+    //         .setValue('@zipCode', '12345')
+    // }
 }   
