@@ -5,6 +5,8 @@ module.exports = {
             {selector: '(//div[text()="My Account"])[1]', locateStrategy: 'xpath'},
         signInBtn: 
             {selector: '//a[@class="bttn bttn--primary"]', locateStrategy: 'xpath'},
+        signIn:
+            {selector: '(//span[@class="bttn__content"])[1]', locateStrategy: 'xpath'},
         enterEmail: '#email',
         enterPw: '#password-input-field', 
         createAcct: 
@@ -49,5 +51,8 @@ module.exports = {
             {selector: '(//input[@class="form-input__field form-control no-input-field-icons"])[4]', locateStrategy: 'xpath'},
         zipCode:
             {selector: '(//input[@class="form-input__field form-control no-input-field-icons"])[6]', locateStrategy: 'xpath'},
+        searchBar: '#headerSearch',
+        searchButton: '#headerSearchButton',
+        
     },  
 }

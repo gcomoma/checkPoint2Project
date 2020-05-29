@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="1"
             failures="1"
-            tests="2">
+            tests="3">
 
   <testsuite name="homeDepot"
     errors="1" failures="1" hostname="" id="" package="homeDepot" skipped="0"
-    tests="2" time="162.4" timestamp="">
+    tests="3" time="189.1" timestamp="">
   
-    <testcase name="verify featured categories" classname="homeDepot" time="62.15" assertions="6">
+    <testcase name="sign in test" classname="homeDepot" time="7.659" assertions="0">
+    </testcase>
+  
+    <testcase name="verify featured categories" classname="homeDepot" time="88.28" assertions="6">
 
     
 
-      <failure message="Testing if element [0;33m&lt;Element [name=@header]&gt;[0m contains text [0;33m&#39;Kitchen &amp; Dining&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Kitchen &amp; Dining&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;Kitchen &amp; Dining&#39;&#34;[0m [0;90m(5252ms)[0m">    at Object.process (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:38:29)
-    at /Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:43:29
+      <failure message="Testing if element [0;33m&lt;Element [name=@header]&gt;[0m contains text [0;33m&#39;Kitchenware&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Kitchenware&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;Kitchenware&#39;&#34;[0m [0;90m(5088ms)[0m">    at Object.process (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:40:29)
+    at /Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:45:29
     at Array.forEach (&lt;anonymous&gt;)
-    at Object.verify featured categories (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:42:24)</failure>
+    at Object.verify featured categories (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:44:24)</failure>
 
     
 
@@ -23,16 +26,16 @@
     
 
     
-      <failure message="    at Object.process (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:38:29)">    at /Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:43:29
+      <failure message="    at Object.process (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:40:29)">    at /Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:45:29
     at Array.forEach (&lt;anonymous&gt;)
-    at Object.verify featured categories (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:42:24)</failure>
-      <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;Element [name=@header]&gt;[0m contains text [0;33m&#39;Kitchen &amp; Dining&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Kitchen &amp; Dining&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;Kitchen &amp; Dining&#39;&#34;[0m [0;90m(5252ms)[0m" type="error">    at /Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:43:29
+    at Object.verify featured categories (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:44:24)</failure>
+      <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;Element [name=@header]&gt;[0m contains text [0;33m&#39;Kitchenware&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Kitchenware&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;Kitchenware&#39;&#34;[0m [0;90m(5088ms)[0m" type="error">    at /Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:45:29
     at Array.forEach (&lt;anonymous&gt;)
-    at Object.verify featured categories (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:42:24)</error>
+    at Object.verify featured categories (/Users/gregoryomoma/Desktop/homeDepotProject/tests/homeDepot.js:44:24)</error>
     
     </testcase>
   
-    <testcase name="verify featured categories 2" classname="homeDepot" time="100.3" assertions="23">
+    <testcase name="verify featured categories 2" classname="homeDepot" time="93.15" assertions="23">
 
     
 
@@ -85,7 +88,7 @@
   
     <system-err>
       [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@kitchenDining]&gt;: undefined; undefined
-   {&#34;sessionId&#34;:&#34;9eb4eecdfce6dc17d170a1a131ddf1e7&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+   {&#34;sessionId&#34;:&#34;8027e2152a5f8a3d8c2b65152d38a247&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
 [0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
     </system-err>
   
