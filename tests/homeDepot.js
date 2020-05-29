@@ -80,6 +80,7 @@ module.exports = {
                     .setValue('@searchBar', commodity.item)
                     .click('@searchButton')
                     .verify.containsText('@header', commodity.res)
+                    .clearValue('@searchBar')
              }
          }
          searchArray.forEach(point => {
